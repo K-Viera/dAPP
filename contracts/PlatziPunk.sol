@@ -95,7 +95,7 @@ contract PlatziPunk is ERC721, ERC721Enumerable, PunksDNA {
             abi.encodePacked(
                 '{"name":"PlatziPunk #',
                 tokenId.toString(),
-                '", "description":"Token for a ramdomized avatar","imagen":"',
+                '", "description":"Token for a ramdomized avatar","image":"',
                 image,
                 '"}'
             )
