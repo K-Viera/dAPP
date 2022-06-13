@@ -52,8 +52,7 @@ describe('PunksTest', () => {
             const stringifiedMetadata = await Buffer.from(base64JSON, 'base64').toString('ascii');
 
             const metadata = JSON.parse(stringifiedMetadata);
-
-            expect(metadata).to.have.all.keys("name", "description", "imagen");
+            expect(metadata).to.have.all.keys("name", "description", "image");
         });
     });
 });

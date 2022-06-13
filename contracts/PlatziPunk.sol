@@ -33,7 +33,7 @@ contract PlatziPunk is ERC721, ERC721Enumerable, PunksDNA {
     }
 
     function _baseURI() internal pure override returns (string memory) {
-        return "https://avataar.io/avatar/";
+        return "https://avataaars.io/";
     }
 
     function _paramsURI(uint256 _dna) internal view returns (string memory) {
